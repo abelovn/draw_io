@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T20:18:16.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="ak9zltcZ_uxRkj2gOXRT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T22:16:47.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZH4NUJ0OkSw-TdWeFhyl" version="22.1.3" type="github">
   <diagram name="Page-1" id="SKqBwoHnBdUnyzkoHlmE">
-    <mxGraphModel>
+    <mxGraphModel dx="1299" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-16" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="40" width="740" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-1" target="nSiyoW14JB1YSKJ5Poop-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-1" target="nSiyoW14JB1YSKJ5Poop-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-1" value="Nginx web" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="110" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-2" value="Service&lt;br&gt;B" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-6" target="nSiyoW14JB1YSKJ5Poop-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-6" target="nSiyoW14JB1YSKJ5Poop-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-6" target="nSiyoW14JB1YSKJ5Poop-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-6" value="reverse-proxy Nginx" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="110" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-8" value="Service&lt;br&gt;A" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-9" target="nSiyoW14JB1YSKJ5Poop-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-9" value="Ingtress&lt;br&gt;Path: /abc" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.773;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nSiyoW14JB1YSKJ5Poop-8" target="nSiyoW14JB1YSKJ5Poop-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-12" value="&lt;div&gt;configMap&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;location /videotest {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass http://reverse-proxy-service;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-14" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;location /videotest/ {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rewrite ^/videotest(/.*)$ $1 break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass http://&amp;lt;IP_Video&amp;gt;:&amp;lt;port&amp;gt;/;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-35" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;flipH=0;flipV=1;rotation=90;strokeColor=default;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSiyoW14JB1YSKJ5Poop-37" value="Video Server&lt;br&gt;&lt;br&gt;&amp;lt;IP_Video&amp;gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;sketch=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
